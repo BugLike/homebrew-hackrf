@@ -31,7 +31,7 @@ class Gnuradio < Formula
     cause "Fails to compile .S files."
   end
 
-  fails_with :llvm
+  #fails_with :llvm
 
   def options
     [
