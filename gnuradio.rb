@@ -7,11 +7,11 @@ class Gnuradio < Formula
   head 'http://gnuradio.org/git/gnuradio.git'
 
   depends_on 'cmake' => :build
-  depends_on 'Cheetah' => :python
-  depends_on 'lxml' => :python
-  depends_on 'numpy' => :python
-  depends_on 'scipy' => :python
-  depends_on 'matplotlib' => :python
+  depends_on 'Cheetah' => :python@2
+  depends_on 'lxml' => :python@2
+  depends_on 'numpy' => :python@2
+  depends_on 'scipy' => :python@2
+  depends_on 'matplotlib' => :python@2
   depends_on 'python@2'
   depends_on 'boost'
   depends_on 'cppunit'
